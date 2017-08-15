@@ -1,5 +1,64 @@
 .header{
+	width: 100%;
+	background: #4D4D4D;
+	padding: 10px 0;
+	color: #fff;
+}
+.header:after{
+	content: "";
+	display: block;
+	height: 0;
+	clear: both;
+}
+.header h2{
+	text-align: center;
+}
+.header p{
+	float: right;
+}
+
+/*主体*/
+.main{
+	width: 100%;
+}
+.main ul{
+	width: 100%;
+	padding: 20px 50px;
+}
+.main h3{
+	padding-left: 50px;
+	padding-top: 20px;
+}
+.main ul li{
+	height: 30px;
+	line-height: 30px;
+	width: 100%;
+	border-bottom: 1px solid #ddd;
+	padding: 0 20px;
+	border-right: 1px solid #ddd;
+	border-left: 1px solid #ddd;
+}
+.main ul li:first-child{
+	border-top: 1px solid #ddd;
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+.main ul li:last-child{
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.main ul li:nth-child(2n){
+	background: #F6F6F6;
+}
+.main ul li:nth-child(2n-1){
+	background: #EEEEEE;
+}
+.footer{
 	height: 100px;
 	width: 100%;
-	background: #FF3030;
+	background: #4D4D4D;
+	line-height: 100px;
+	text-align: center;
+	color: #fff;
+	font-size: 50px;
 }

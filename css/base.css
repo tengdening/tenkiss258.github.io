@@ -51,3 +51,22 @@ body{
 	flex:auto;
 	overflow: auto;
 } 
+
+/*滚动条 start*/  
+::-webkit-scrollbar {  
+    width: 6px;  
+    height:6px;
+/*background-color: #F5F5F5;  */
+    background-color: #0C7BB2;  
+}  
+::-webkit-scrollbar-track {  
+    background: #fff ;  
+}  
+::-webkit-scrollbar-thumb {  
+    border-radius: 3px;  
+    background-color:rgba(12, 123, 178, 0.7);  
+}  
+::-webkit-scrollbar-thumb:hover {  
+    border-radius: 3px;  
+    background-color:rgba(12, 123, 178, 1);  
+}  
